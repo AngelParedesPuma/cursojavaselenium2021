@@ -1,5 +1,5 @@
 package com.google;
 
-public class test0111 {
+public class Otro {
 
 }
