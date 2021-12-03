@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [QA_Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TC001(failed)">
+    <classes>
+      <class name="com.opensource.qa.TC001_Validate_User_Admin_POM">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- com.opensource.qa.TC001_Validate_User_Admin_POM -->
+    </classes>
+  </test> <!-- TC001(failed) -->
+  <test thread-count="5" parallel="tests" name="TC005(failed)">
+    <classes>
+      <class name="com.opensource.qa.Tc005">
+        <methods>
+          <include name="tc005"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.opensource.qa.Tc005 -->
+    </classes>
+  </test> <!-- TC005(failed) -->
+</suite> <!-- Failed suite [QA_Regression] -->

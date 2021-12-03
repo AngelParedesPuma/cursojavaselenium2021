@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QA_Regression" parallel="tests" thread-count="5">
+
+	<test name="TC001">
+		<classes>
+			<class name="com.opensource.qa.TC001_Validate_User_Admin_POM" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TC002">
+		<classes>
+			<class name="com.opensource.qa.TC002_Validate_Invalid_Password" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TC003">
+		<classes>
+			<class name="com.opensource.qa.Tc003" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="TC004">
+		<classes>
+			<class name="com.opensource.qa.Tc004" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="TC005">
+		<classes>
+			<class name="com.opensource.qa.Tc005" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
